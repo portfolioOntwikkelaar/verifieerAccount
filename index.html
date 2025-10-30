@@ -1,27 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verifieer uw account nieuwe edition</title>
     <link rel="stylesheet" href="style.css" />
-    <title>Verifieer Account</title>
   </head>
   <body>
+    <div class="bg"></div>
+
     <div class="container">
       <h2>Verifieer uw account</h2>
-      <p>We hebben je de zescijferige code gemaild naar iemand@email.com <br/> Voer de onderstaande code in om uw e-mailadres te bevestigen.</p>
+      <p>
+        We hebben een zescijferige code gestuurd naar
+        <span class="email">iemand@email.com</span>.<br />
+        Voer de code hieronder in om uw e-mailadres te bevestigen.
+      </p>
+
       <div class="code-container">
-        <input type="number" class="code" placeholder="0" min="0" max="9" required>
-        <input type="number" class="code" placeholder="0" min="0" max="9" required>
-        <input type="number" class="code" placeholder="0" min="0" max="9" required>
-        <input type="number" class="code" placeholder="0" min="0" max="9" required>
-        <input type="number" class="code" placeholder="0" min="0" max="9" required>
-        <input type="number" class="code" placeholder="0" min="0" max="9" required>
+        <input type="number" class="code" placeholder="-" min="0" max="9" required />
+        <input type="number" class="code" placeholder="-" min="0" max="9" required />
+        <input type="number" class="code" placeholder="-" min="0" max="9" required />
+        <input type="number" class="code" placeholder="-" min="0" max="9" required />
+        <input type="number" class="code" placeholder="-" min="0" max="9" required />
+        <input type="number" class="code" placeholder="-" min="0" max="9" required />
       </div>
+
       <small class="info">
-        Dit is alleen ontwerp. We hebben je niet echt een e-mail gestuurd omdat we je e-mailadres niet hebben, toch?
+        Dit is een ontwerpvoorbeeld. Er is geen echte e-mail verzonden.
       </small>
     </div>
+
+    <footer>
+      <p>UI Concept — 2025 portfolioOntwikkelaar</p>
+    </footer>
+
     <script src="script.js"></script>
   </body>
 </html>
+
